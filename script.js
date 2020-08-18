@@ -15,7 +15,7 @@ numbtn.addEventListener('click',()=>{
         result += '</p>'
     }
     out.innerHTML = result;
-});*/
+});
 let num = document.getElementById('P_num');
 let user = document.getElementById('P_user');
 let numbtn = document.getElementById('btn');
@@ -36,5 +36,5 @@ numbtn.addEventListener('click',()=>{
     if (numberUser < number) {
         money.innerHTML = "จำนวนเงินไม่พอ";
     }
-});
+});*/
 

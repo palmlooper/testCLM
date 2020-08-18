@@ -2,9 +2,8 @@
 body{
     font-family:Arial ;
     background-color: rgb(238, 231, 142);
-    display: flex;
-    justify-content: center;
     font-family: 'Kanit', sans-serif;
+    margin: 0;
 }
 .box{
     display: block;
@@ -37,4 +36,63 @@ body{
 }
 #money{
     text-shadow: #fff 2px solid;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+}
+.menu .logo{
+    margin-left: 50px;
+}
+.menu .logo a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+.menu .logo a:hover{
+    letter-spacing:4px;
+    opacity: .6;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav button{
+    margin-right: 50px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+.nav ul{
+    display: none;
+    margin-right: 50px;
+}
+.nav ul li{
+    padding: 5px 20px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #151515;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+}
+.nav ul li a::after{
+    content: '';
+    position: absolute;
+    width:0 ;
+    height: 2.5px;
+    background-color: #151515;
+    left: 0;
+    bottom: -3px;
+    transition: .5s;
+}
+.nav ul li:hover a::after{
+    width:100% ;
 }
