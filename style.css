@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+body{
+    font-family:Arial ;
+    background-color: rgb(238, 231, 142);
+    display: flex;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+}
+.box{
+    display: block;
+    width:300px ;
+    align-items: center;
+    padding: 10px 0;
+}
+.box input{
+    display: block;
+    margin: 25px auto;
+    transition: .5s;
+}
+#num{
+    background-color: #151515;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 1.5rem;
+    margin: 0;
+    transition-duration: 1s;
+}
+.con{
+    background-color: teal;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    transform: scale(0);
+    transition:.5s ;
+    text-align: center;
+}
+#money{
+    text-shadow: #fff 2px solid;
+}
